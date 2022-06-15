@@ -11,11 +11,7 @@ const Header = () => {
                         <p>Bohikor helps you budget and manage your money in <br />
                          a fun way, designing the life you want from your mobile<br />
                          phone.</p>
-                         <br />
-                    
                         <h3>Join the Journey today!</h3>
-                        <br />
-                        <br />
                         <p>Comkng soon</p>
                         <br />
                         <img src="image/Mask-Group-221.png" alt="img"/>

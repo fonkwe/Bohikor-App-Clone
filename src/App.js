@@ -4,6 +4,7 @@ import Navbar from './components/NavBar';
 import Header from './components/Header'
 import WhyBohikor from './components/WhyBohikor'
 import Footer from './components/Footer'
+import FAQ from './pages/FAQ'
 import Features from './pages/Features'
 import MoneyTherapy from './pages/MoneyTherapy'
 import BohikorScore from './pages/Bohikor Score'
@@ -11,6 +12,8 @@ import FAQs from './pages/FAQs'
 import{ BrowserRouter as Router } from 'react-router-dom';
 
 
+     
+ 
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
       <MoneyTherapy />
       <BohikorScore />
       <FAQs />
+      <FAQ />
       <Footer />
       
     </Router>

@@ -33,7 +33,7 @@
 
 
 .col-m img{
-    width: 750px;
+    width: 900px;
     position: absolute;
     padding-left: 125px;
 }
@@ -64,15 +64,30 @@
     margin: 5px;
     color: black;
 }
-
-#Features {
-    display: flex;
-  }
-  #feature-text{
-    font-size: 14px;
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-#feature-img img{
-    width: 35px;
+.title {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.row-features {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    margin: 20px;
+    padding-top: 100px;
+}
+
+.text{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.row-features img{
+    width: 450px;
 }
 #Money-Therapy{
     display: flex;
@@ -153,41 +168,40 @@
   text-decoration: none;
   font-size: 20px;
 }
-#FAQS {
+.Container-faq{
     background-color: #00ffff;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    flex-direction: row;
-    color:black
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
 }
-.FAQS{
+.FAQ{
     background-color: #00ffff;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    flex-direction: row;
     display: flex;
-    color:#000;
+    flex-direction: column;
+}
+
+.F-container {
+    margin-left: 300px;
+}
+.F-img {
+    margin-top: 50px;
+    position: absolute;
     
 }
- #FAQS-container {
-    margin-left: 250px;
-}
 
 
-#FAQS-end{
+.F-end{
     margin-left: 300px;
-    margin-top: -50px;
+    
 
 }
-#FAQS-end h3{
+.F-end h3{
     color: #3770ED;
 } 
-#social {
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    
-}
+
 #footer {
     display: block;
     background-color: #3770ED;
