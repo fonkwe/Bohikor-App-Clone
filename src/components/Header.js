@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="Container">
             <div className="row">
-                <div className="col-">
+                <div className="col- col-s-3">
                         <h1>Track Your Spending and <br />build better money Habits.</h1>
                         <br />
                         <p>Bohikor helps you budget and manage your money in <br />
@@ -17,7 +17,7 @@ const Header = () => {
                         <img src="image/Mask-Group-221.png" alt="img"/>
                         <img src="image/Mask-Group-222.png" alt="img"/>
                 </div>
-                <div className="col-m">
+                <div className="col-m col-s-9">
                     <img src="image/Bohikor-2x (1).png" alt="img"/>
                 </div>
             </div>        

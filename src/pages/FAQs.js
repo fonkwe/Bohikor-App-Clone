@@ -3,7 +3,7 @@ import React from 'react';
 
 const FAQs = () => {
     return (
-        <div className="container-faq">
+        <div className="container-faq col-s-12">
           <h1 id="h1">FAQS</h1>
           <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
 

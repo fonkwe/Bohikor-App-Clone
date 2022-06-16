@@ -231,3 +231,32 @@
     color: black;
     padding-left: 10px;
 }
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col- {
+        width: 25%;
+    }
+    .Container-faq {
+        width: 25%;
+    }
+    .F-container {
+        width: 100%;
+    }
+    #Bohikor-Score{
+        width: 100%;
+
+    }
+     .col-s-12 {width: 100%;}
+     .col-s-3 {width: 25%;}
+     .col-s-9{width: 75%;}
+     .col-m{width: 50%;}
+     .col-10 {width: 100%;}
+    
+    
+    
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .Container {width: 100%;}
+   
+  }

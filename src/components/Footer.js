@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div id="footer">
-                <div id="footer-a">
+                <div id="footer-a" className="col-10">
                     <a href="https://bohikor.com/about/">About</a>
                     <a href="https://bohikor.com/privacy/">Privacy</a>
                     <a href="https://bohikor.com/terms/">Terms</a>
